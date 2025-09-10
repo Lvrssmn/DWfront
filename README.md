@@ -6,7 +6,7 @@ npm i
 npm run dev
 ```
 
-## Сборка
+## Сборка 
 ```bash
 npm run build
 npm run preview
