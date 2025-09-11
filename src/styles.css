@@ -61,12 +61,7 @@ body{
 .card:hover{transform: translateY(-2px); box-shadow: 0 6px 16px rgba(0,0,0,.35); border-color: var(--accent)}
 .card .title{font-weight:700; margin-bottom:6px}
 .card .apy{color:var(--warn); font-weight:700}
-
-/* Заголовок внутри карточки (например: "120tc straddle") */
-.trade-ideas .card .title {
-  color: #f1c40f;                  /* Желтый цвет текста */
-  margin-bottom: 8px;              /* Отступ снизу, чтобы текст APY не прилипал */
-}
+.card .title{color:#f1c40f}
 
 /* optionverse */
 .optionverse{display:grid; grid-template-columns: 1fr 340px; gap:16px}
