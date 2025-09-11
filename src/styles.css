@@ -64,7 +64,7 @@ body{
 
 /* Заголовок внутри карточки (например: "120tc straddle") */
 .trade-ideas .card .title {
-  color: #ffffff;                  /* Белый цвет текста */
+  color: #f1c40f;                  /* Желтый цвет текста */
   margin-bottom: 8px;              /* Отступ снизу, чтобы текст APY не прилипал */
 }
 
