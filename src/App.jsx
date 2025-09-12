@@ -3,6 +3,7 @@ import Tabs from "./components/Tabs";
 import MarketOutlook from "./components/MarketOutlook";
 import TradeIdeas from "./components/TradeIdeas";
 import Optionverse from "./components/Optionverse";
+import PortfolioTable from "./components/PortfolioTable";
 import ProfitAndLossChart from "./components/ProfitAndLossChart";
 import PortfolioReturnsChart from "./components/PortfolioReturnsChart";
 
@@ -45,7 +46,9 @@ export default function App(){
                   <Optionverse />
                 </div>
 
-             
+                <div className="portBox">
+                  <PortfolioTable />
+                </div>
               </div>
             </main>
           </div>
