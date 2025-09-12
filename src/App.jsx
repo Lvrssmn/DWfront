@@ -47,8 +47,8 @@ export default function App(){
                 </div>
 
                 <div className="portBox">
-                  {/* <PortfolioTable /> */}
-                </div>
+                  {/* <PortfolioTable /> 
+                </div> */}
               </div>
             </main>
           </div>
