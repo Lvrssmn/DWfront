@@ -1,9 +1,10 @@
+// vite.config.js
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// For GitHub Pages: base path is provided via BASE_PATH in CI (see workflow).
-// Locally it's just '/'
+// Жёсткая установка base под GitHub Pages:
+// сайт будет доступен по https://<username>.github.io/DWfront/
 export default defineConfig({
   plugins: [react()],
-  base: process.env.BASE_PATH || '/'
+  base: '/DWfront/',   // <-- имя репозитория. Если переименуете — поменяйте и здесь.
 })
