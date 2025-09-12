@@ -46,8 +46,8 @@ export default function App(){
                   <Optionverse />
                 </div>
 
-                <div className="portBox">
-                  {/* <PortfolioTable /> 
+                {/* <div className="portBox">
+                   <PortfolioTable /> 
                 </div> */}
               </div>
             </main>
